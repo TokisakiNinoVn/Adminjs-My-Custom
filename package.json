@@ -1,0 +1,25 @@
+{
+  "name": "my-adminjs",
+  "version": "1.0.0",
+  "description": "A custom admin panel generator using JavaScript",
+  "main": "index.js",
+  "bin": {
+    "create": "./bin/index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "go": "node index.js"
+  },
+  "keywords": [
+    "admin",
+    "adminjs",
+    "javascript"
+  ],
+  "author": "Toksiaki Nino",
+  "license": "MIT",
+  "dependencies": {
+    "@adminjs/express": "^6.1.0",
+    "adminjs": "^7.8.13",
+    "express": "^4.21.1"
+  }
+}
